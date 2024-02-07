@@ -1,0 +1,166 @@
+1 projet par exercice ) sur gitlab
+les questions prépa à faire sur github
+
+Vocabulaire
+
+    pip est l’outil d’installation de prédilection. À partir de Python 3.4, il est inclus par défaut avec l’installateur de Python.
+
+    Un environnement virtuel est un environnement Python semi-isolé qui autorise les paquets à être installés pour une application particulière, plutôt que d’être installés au niveau du système.
+
+    venv est l’outil standard pour créer des environnements virtuels, et est intégré à Python depuis la version 3.3. Depuis Python 3.4, il installe aussi pip dans tous les environnements virtuels créés.
+
+    virtualenv est une alternative tierce à venv (et son prédécesseur). Elle permet la création d’environnements virtuels pour les versions de Python antérieures à 3.4, qui ne fournissent pas de venv, ou ne sont pas capables d’installer automatiquement pip dans les environnements créés.
+
+    L”Index des Paquets Python est un dépôt public des paquets sous licence ouverte disponibles pour tous les utilisateurs Python.
+
+    l”Autorité des Paquets Python est le groupe de développeurs et d’auteurs de documentation responsable de la maintenance et l’évolution des outils d’empaquetage standards et des métadonnées associées, ainsi que des standards sur les formats de fichiers. Ils maintiennent une multitude d’outils, documentations, et des systèmes de tickets sur GitHub et BitBucket.
+
+    distutils est le premier système de construction et de distribution ajouté à la bibliothèque standard en 1998. Bien que l’utilisation directe de distutils soit progressivement supprimée, elle reste le fondement de l’infrastructure actuelle de construction de paquet et de distribution. Au-delà de rester dans la bibliothèque standard, son nom vit aussi sous d’autres formes, tel que la liste de diffusion utilisée pour coordonner le développement et les standards de la création de paquet.
+
+
+......................................................................................................................................................................................................
+
+Questions Préparatoires
+
+1) Expliquer le code suivant  (addition.py):
+
+
+def add(x, y): //on définit une fonction addition
+
+  z=x+y //on réalise l'addition
+
+  print('add() executed under the scope: ', __name__)
+
+  return z //on retourne le résultat de l'addition
+
+if __name__ == '__main__':          //on créer un main 
+
+  x=input('Enter the first number to add: ') //on récupère une première valeur x
+
+  y=input('Enter the second number to add: ') //on récupère une première valeur y
+
+  result = add(int(x),int(y)) //on appelle la fonction addition pour faire l'addition
+
+  print(x, '+', y,'=', result) //affichage du résultat
+
+  print('Code executed under the scope: ', __name__) //etape de verification pour
+  
+
+1) A quoi sert requirments.txt ?
+
+Ce fichier permet d'indiquer la liste des paquets Python nécessaire aux différents environnement virtuel pour que le programme fonctionne correctement.
+Site: (https://openclassrooms.com/fr/courses/6951236-mettez-en-place-votre-environnement-python/7014487-gerez-les-environnements-virtuels-a-laide-du-fichier-requirements-txt)
+”pour commencer à travailler sur ce projet, créez et activez un environnement virtuel, puis installez ces paquets”.
+
+2) A quoi ressemble un module en python ?
+
+Un module contient un ensemble de fonctions + constantes dans un fichiers.
+Ensuite en important le fichier, on a accès à toutes les fonctions définit dans le fichier.
+Il faut créer des docstrings pour documenter les fonctions (leurs comportements, ce qu'elles prennent en argument)
+
+S'il n'est pas dans le dossier courant => import sys
+					  sys.path.append("./OSC")
+					  import OSC
+Ces instructions sont destinées à initialiser le module/ elles sont lues une seule fois quand on importe.
+
+3) A quoi ressemble un package ?
+
+C'est un conteneur permettant de stocker un ensemble de fonctions avec des tâches spécifIQUES, appeller le fichier utils.
+Documentation :
+ Alors que remarque-t-on? Tout d'abord on importe un package avec les mots clé from et import , ensuite pour appeler une fonction précise, on passe par la hiérarchie suivante: 
+ Dans ce dossier, créons le fichier suivant: __init__.py , cela indique à python qu'il s'agit d'un package . Ce fichier peut être vide, seule sa présence est importante. 
+ 
+4) Créer un code python utilisant sous forme de module addition.py
+OK
+pour utiliser le module taper from fichier import lafonction
+
+A quoi sert pip ?
+pip est un systeme de gestion de paquet permettant de gérer et d'installer des librairies en python.
+elle permet d'installer des librairies avec la commande: pip install pygame
+supprimer une librairie/ choisir la version et gérer les paquets.
+
+6) A quoi sert PYTHONPATH ?
+
+Le pythonpath permet d'indiquer à python quels dossiers il doit prendre en compte pour sa recherche de modules.
+>>> import sys
+>>> sys.path
+
+Lorsque l'instruction import module est invoquée, l'interpréteur Python va :
+Rechercher le module module en explorant une liste prédéfinie de répertoires (c'est cette liste qu'on appelle le PYTHON PATH)
+Charger le code du module et le mettre à disposition dans une variable du même nom
+
+7) Où sont stockés les paquets installé par pip ?
+
+A RECHERCHER
+
+8) A quoi sert pip install –user ?
+
+Cette commande permet d'installer des paquet (librairie) venant du gestionnaire pip !
+--user => permet d'installer les packages dans le repertoire home + pas besoin d'avoir des privilèges spéciaux.  
+
+9) A quoi sert venv ?
+
+-> permet de créer des environnements virtuels + installe pip dans tous les environnements virtuels créés.
+
+10) Comment utiliser venv ?
+
+1) Nous pouvons maintenant créer notre environnement, virtualenv ap
+2) virtualenv data/app
+3) pour lancer l'environnement virtuel source ap/bin/activate
+4) pour sortir de l'environnement deactivate
+
+11) A quoi sert docker ?
+
+C'est une plate-forme logicielle qui permet de concevoir, tester et déployer des applications rapidement. 
+Docker intègre les logiciels dans des unités normalisées appelées conteneurs, qui rassemblent tous les éléments nécessaires à leur fonctionnement, 
+dont les bibliothèques, les outils système, le code et l'environnement d'exécution.
+
+Docker vous permet d'envoyer du code plus rapidement, de standardiser les opérations de vos applications, de migrer aisément du code et de faire des économies en améliorant l'utilisation des ressources.
+Il s’agit d’un environnement d’exécution léger, et d’une alternative aux méthodes de virtualisation traditionnelles basées sur les machines virtuelles.
+L’une des pratiques clés du développement de logiciel moderne est d’isoler les applications déployées sur un même hôte ou sur un même cluster. Ceci permet d’éviter qu’elles interfèrent.
+https://datascientest.com/docker-guide-complet
+
+12) Comment utiliser docker ?
+
+https://datascientest.com/docker-guide-complet
+
+......................................................................................................................................................................................................
+
+Exercice 0
+
+1) A quoi sert git config , Quelles sont les informtions minimales à renseigner. Est ce bien fait sur votre ordinateur ?
+
+git config permet de configurer des répertoires + les données d'authentification de git.
+
+2) Quelles sont les commandes de bases git ? a quoi servent elles ?
+
+Les commandes importantes => 
+
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+$ git config --global core.editor emacs //permet de configurer le traitement de texte par défaut
+$ git config --global init.defaultBranch main //nom de la branche
+$ git config --list //pour lister tout les paramètres
+
+Def du workflow => Un workflow, flux de travaux ou encore flux opérationnel, est la représentation d'une suite de tâches ou d'opérations effectuées par une personne, un groupe de personnes, un organisme, etc.
+Le workflow est une suite organisée de tâches automatisées ou manuelles visant à améliorer l'efficacité et la productivité d'une entreprise.
+=> Bonne pratique car cela permet d'organiser/ de planifier des tâches.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
