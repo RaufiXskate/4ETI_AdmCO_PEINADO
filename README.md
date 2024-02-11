@@ -1,27 +1,12 @@
-# SUJET_4ETI_AdmCO_20232024
-
-![ Bonnes Pratiques](images/Bonnes_Pratiques_m.jpg)
+# SUJET_4ETI_AdmCO_20232024_PEINADO
 
 **Activités AdmCo Partie 1 2023-2024**
 
-Le rendu  est à faire en markdown sous github. L'idée est de partir d'un fork de ce projet. Le rendu est à faire en monôme . Les activités de codage sont à faire sous gitlab. L'ensemble des projets doit être privés et vous devez m'ajouter comme maintener . L'ensemble des liens gitlabs des questions doit être inclus dans le rapport github.
-
-Héberger chaque question sur gitlab. Faite un tag 1.0 quand vous pensez que  l’exercice est finalisé. Donnez moi les droits maintener sur vos projets ( « fabricejumel »)
-
-A part pour les questions Préparatoires , votre objectif est de  créer des dépots git pour chaque question.
-
-l’idée est de faire mieux , en lien avec votre sujet (bien sûr) que ces deux exemples :
-
-<https://gitlab.com/fabricejumel/rendufinal_bouyssoux/>
-
-<https://gitlab.com/fabricejumel/tp1_ex8v0>
-
-Il est demandé de ne pas utiliser visualcode (on peut l'utiliser en tant qu'editeur, mais pas d'usage des outils terminaux, git , etc ...)
-
-
-## Questions Préparatoires
+## Réponses aux questions préparatoires
 
   1. Expliquer le code suivant  (addition.py):
+
+    Pour répondre aux questions j'ai placé des commentaires
 ```python
 def add(x, y):
 
