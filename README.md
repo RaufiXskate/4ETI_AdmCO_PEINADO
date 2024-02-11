@@ -155,10 +155,12 @@ Pour créer un environnement virtuel avec venv :
 
 Lancer un environnement virtuel (cf section "Environnement virtuel") pour y installer les librairies nécessaires au projet.
 
+Pour installer pip : ```sudo apt install pip```
+
 Pour la partie test :
 
 La librairie unittest est déjà inclue dans python.
-Pour installer logging : ``pip install logging```
+Pour installer logging : ```pip install logging```
 
 Pour les bonnes pratiques :
 
