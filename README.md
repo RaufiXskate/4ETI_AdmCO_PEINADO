@@ -28,7 +28,8 @@ Ce package permet de contenir la partie fonctionnelle de notre code, le fichier 
 
 Voici un extrait de la classe SimpleComplexCalculator : 
 
-``` class SimpleComplexCalculator:
+``` 
+class SimpleComplexCalculator:
 
     def __init__(self,tuple1,tuple2):
         self.tuple1=tuple1
@@ -57,7 +58,8 @@ A COMPLETER
 
 Voici un extrait de la classe MyTestCase : 
 
-``` class MyTestCase(unittest.TestCase):
+``` 
+class MyTestCase(unittest.TestCase):
     '''Classe permettant de tester la classe "class_calculator" '''
 
     def test_addition(self):
@@ -101,7 +103,7 @@ Ces règles et leurs utilisations dans le projet ont été détaillés ici : htt
 
 a) black : formate le code qu'on lui donne en argument
 
-Utilisation => black mon_fichier.py
+Utilisation => ```black mon_fichier.py```
 
 Exemple d'affichage de ce programme :
 ```
@@ -112,7 +114,7 @@ All done! ✨ 🍰 ✨
 ```
 b) pylint : est un analyseur de code qui permet d'attribuer une note allant de [-10,10] pour le code qu'on lui donne en paramètre en fonction de ses critères de bonnes pratiques/lisibilité du code.
 
-Utilisation => pylint mon_fichier.py
+Utilisation => ```pylint mon_fichier.py```
 
 Exemple d'affichage de ce programme :
 
@@ -146,9 +148,8 @@ Pour ce projet avec l'utilisation de bibliothèques diverses, on souhaite que le
 Pour créer un environnement virtuel avec venv :
 
 1) ```python -m venv <environment name>``` # permet de créer un environnement virtuel
-2) ```source env/bin/activate ``` # pour activer l'environnement virtuel
-3) Pour quitter l'environnement virtuel ``` deactivate```
-
+2) ```source env/bin/activate``` # pour activer l'environnement virtuel
+3) Pour quitter l'environnement virtuel ```deactivate```
 
 # Librairies nécessaires
 
@@ -166,7 +167,7 @@ Pour installer black : ```pip install black```
 
 # Envoi de la partie fonctionnelle en ligne sur le site https://test.pypi.org/
 
-(Procédure adapté pour linux (ubuntu))
+(Procédure adaptée pour linux (ubuntu))
 
 ```
 1) Créer un compte sur https://test.pypi.org/
@@ -181,6 +182,7 @@ Pour installer black : ```pip install black```
 twine upload -u YOUR-USERNAME -p YOUR-PASSWORD --repository-url https://test.pypi.org/legacy/ dist/*
 pour se connecter avec un token mettre pour le paramètre u:  __token__ et pour le mdp = votre token
 ```
+
 # Récupération du projet en ligne
 
 Pour rendre accessible la partie fonctionnelle du projet (la classe qui réalise les opérations), on le met sur le site https://test.pypi.org/ (cf section précédente) on peut le récupérer avec la commande suivante :
@@ -206,6 +208,7 @@ Exercice 12 : https://gitlab.com/administration-code-2024/exercice-12.git
 # Ressources
 
 Plateforme de mise en ligne de package Python : https://test.pypi.org/
+
 Commandes gitlab : https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html
 
-
+Ènoncé du sujet : https://github.com/fabricejumel/SUJET_4ETI_AdmCO_20232024/?tab=readme-ov-file
