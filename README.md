@@ -1,7 +1,5 @@
 # SUJET_4ETI_AdmCO_20232024_PEINADO
 
-**Activités AdmCo Partie 1 2023-2024**
-
 # I. Objectif
 
 Le but de ce TP est de créer un calculateur pouvant réaliser les opérations simples (addition, soustraction, multiplication et division) sur 2 nombres complexes en utilisant la notion de classe et de package.
