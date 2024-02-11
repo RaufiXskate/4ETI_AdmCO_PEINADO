@@ -187,7 +187,8 @@ pour se connecter avec un token mettre pour le paramètre u:  __token__ et pour 
 
 Pour rendre accessible la partie fonctionnelle du projet (la classe qui réalise les opérations), on le met sur le site https://test.pypi.org/ (cf section précédente) on peut le récupérer avec la commande suivante :
 
-```pip install -i https://test.pypi.org/simple/ calculator-complexe-cobra
+```
+pip install -i https://test.pypi.org/simple/ calculator-complexe-cobra
 ```
 
 # Liens vers gitlab
