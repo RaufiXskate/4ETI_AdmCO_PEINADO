@@ -192,18 +192,18 @@ Pour rendre accessible la partie fonctionnelle du projet (la classe qui réalise
 
 # Liens vers gitlab
 
-Exercice 0 : https://gitlab.com/administration-code-2024/exercice-0.git
-Exercice 1 : https://gitlab.com/administration-code-2024/exercice-1.git
-Exercice 2 : https://gitlab.com/administration-code-2024/exercice-2.git
-Exercice 3 : https://gitlab.com/administration-code-2024/exercice-3.git
-Exercice 4 : https://gitlab.com/administration-code-2024/exercice-4.git
-Exercice 5 : https://gitlab.com/administration-code-2024/exercice-5.git
-Exercice 6 : https://gitlab.com/administration-code-2024/exercice-6.git
-Exercice 7 : https://gitlab.com/administration-code-2024/exercice-7.git
-Exercice 8 : https://gitlab.com/administration-code-2024/exercice-8.git
-Exercice 9 : https://gitlab.com/administration-code-2024/exercice-9.git
-Exercice 10 : https://gitlab.com/administration-code-2024/exercice-10.git
-Exercice 12 : https://gitlab.com/administration-code-2024/exercice-12.git
+-Exercice 0 : https://gitlab.com/administration-code-2024/exercice-0.git
+-Exercice 1 : https://gitlab.com/administration-code-2024/exercice-1.git
+-Exercice 2 : https://gitlab.com/administration-code-2024/exercice-2.git
+-Exercice 3 : https://gitlab.com/administration-code-2024/exercice-3.git
+-Exercice 4 : https://gitlab.com/administration-code-2024/exercice-4.git
+-Exercice 5 : https://gitlab.com/administration-code-2024/exercice-5.git
+-Exercice 6 : https://gitlab.com/administration-code-2024/exercice-6.git
+-Exercice 7 : https://gitlab.com/administration-code-2024/exercice-7.git
+-Exercice 8 : https://gitlab.com/administration-code-2024/exercice-8.git
+-Exercice 9 : https://gitlab.com/administration-code-2024/exercice-9.git
+-Exercice 10 : https://gitlab.com/administration-code-2024/exercice-10.git
+-Exercice 12 : https://gitlab.com/administration-code-2024/exercice-12.git
 
 # Ressources
 
@@ -211,4 +211,4 @@ Plateforme de mise en ligne de package Python : https://test.pypi.org/
 
 Commandes gitlab : https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html
 
-Ènoncé du sujet : https://github.com/fabricejumel/SUJET_4ETI_AdmCO_20232024/?tab=readme-ov-file
+Énoncé du sujet : https://github.com/fabricejumel/SUJET_4ETI_AdmCO_20232024/?tab=readme-ov-file
