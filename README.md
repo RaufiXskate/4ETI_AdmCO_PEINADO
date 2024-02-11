@@ -193,18 +193,32 @@ pip install -i https://test.pypi.org/simple/ calculator-complexe-cobra
 
 # Liens vers gitlab
 
--Exercice 0 : https://gitlab.com/administration-code-2024/exercice-0.git
--Exercice 1 : https://gitlab.com/administration-code-2024/exercice-1.git
--Exercice 2 : https://gitlab.com/administration-code-2024/exercice-2.git
--Exercice 3 : https://gitlab.com/administration-code-2024/exercice-3.git
--Exercice 4 : https://gitlab.com/administration-code-2024/exercice-4.git
--Exercice 5 : https://gitlab.com/administration-code-2024/exercice-5.git
--Exercice 6 : https://gitlab.com/administration-code-2024/exercice-6.git
--Exercice 7 : https://gitlab.com/administration-code-2024/exercice-7.git
--Exercice 8 : https://gitlab.com/administration-code-2024/exercice-8.git
--Exercice 9 : https://gitlab.com/administration-code-2024/exercice-9.git
--Exercice 10 : https://gitlab.com/administration-code-2024/exercice-10.git
--Exercice 12 : https://gitlab.com/administration-code-2024/exercice-12.git
+Le projet a été fait pas à pas et les différents exercices correspondent aux différentes étapes de sa construction.
+Dans chaque exercice un REAME.txt a été fait expliquant l'objectif de l'exercice ainsi que des précisions sur le code.
+
+Exercice 0 : https://gitlab.com/administration-code-2024/exercice-0.git
+
+Exercice 1 : https://gitlab.com/administration-code-2024/exercice-1.git
+
+Exercice 2 : https://gitlab.com/administration-code-2024/exercice-2.git
+
+Exercice 3 : https://gitlab.com/administration-code-2024/exercice-3.git
+
+Exercice 4 : https://gitlab.com/administration-code-2024/exercice-4.git
+
+Exercice 5 : https://gitlab.com/administration-code-2024/exercice-5.git
+
+Exercice 6 : https://gitlab.com/administration-code-2024/exercice-6.git
+
+Exercice 7 : https://gitlab.com/administration-code-2024/exercice-7.git
+
+Exercice 8 : https://gitlab.com/administration-code-2024/exercice-8.git
+
+Exercice 9 : https://gitlab.com/administration-code-2024/exercice-9.git
+
+Exercice 10 : https://gitlab.com/administration-code-2024/exercice-10.git
+
+Exercice 12 : https://gitlab.com/administration-code-2024/exercice-12.git
 
 # Ressources
 
