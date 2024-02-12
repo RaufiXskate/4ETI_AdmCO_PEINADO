@@ -39,8 +39,9 @@ Pour cela on peut utiliser : `import le_module` ou bien `from le_module import f
 3) A quoi ressemble un package ?
 
 Un package est un conteneur qui stocke un ensemble de fonctions qui ont des tâches spécifiques.
-Pour créer un package il suffit de créer un dossier avec le fichier mon_fichier.py et un autre fichier nommé __init__.py qui permet d'indiquer à Pyhon que le dossier est un package.
-Pour importer un package taper `from lle_package import*`, si on veut récupérer toutes les fonctions du package.
+Pour créer un package il suffit de créer un dossier avec le fichier mon_fichier.py et un autre fichier nommé ```__init__.py``` qui permet d'indiquer à Pyhon que le dossier est un package.
+
+Pour importer un package taper ```from le_package import*```, si on veut récupérer toutes les fonctions du package.
  
 4) Créer un code python utilisant sous forme de module addition.py
 OK (voir dans le dossier "Questions préparatoires"
@@ -82,6 +83,7 @@ Pour utiliser venv :
 
 
 11) A quoi sert docker ?
+
 (Source :https://aws.amazon.com/fr/docker/)
 
 Docker est une plateforme logiciel permettant de concevoir, tester et déployer des applications rapidement. 

@@ -52,9 +52,15 @@ On peut voir que le constructeur de la classe prend en paramètre 2 tuples qui c
 Ce package nous permet de faire des tests de fonctionnalités sur notre classe SimpleComplexCalculator contenu dans le package calculator.
 Pour pouvoir faire des tests en appelant le package calculator, il faut l'importer dans le programme :
 ```import calculator ``` ou bien ```from calculator import methodes```
-On doit aussi ajouter le package calculator dans le Pythonpath pour ne pas avoir d'erreur lors de l'importation.
 
-A COMPLETER
+On doit ajouter le package calculator dans le Pythonpath pour ne pas avoir d'erreur lors de l'importation dans un programme.
+
+Pour cela une méthode rapide revient à ajouter le chemin de votre package dans le fichier python path : 
+
+```
+import sys
+sys.path.insert(0, "/path/to/your/package_or_module")
+```
 
 Voici un extrait de la classe MyTestCase : 
 
@@ -169,7 +175,7 @@ Pour installer black : ```pip install black```
 
 # Envoi de la partie fonctionnelle en ligne sur le site https://test.pypi.org/
 
-(Procédure adaptée pour linux (ubuntu))
+(Procédure adaptée pour un système linux (ubuntu))
 
 ```
 1) Créer un compte sur https://test.pypi.org/
@@ -195,7 +201,6 @@ pip install -i https://test.pypi.org/simple/ calculator-complexe-cobra
 Ci-dessous on peut voir que le fichier a bien été mis en ligne sur le site :
 
 ![preuve_mise_en_ligne](images/miseenligne.png)
-
 
 # Liens vers gitlab
 
