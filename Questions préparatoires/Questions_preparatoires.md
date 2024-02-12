@@ -78,7 +78,7 @@ Pour utiliser venv :
 
 1) ```python -m venv <environment name>``` # permet de créer un environnement virtuel
 2) ```source env/bin/activate ``` # pour activer l'environnement virtuel
-3) Pour quitter l'environnement virtuel ``` deactivate```
+3) Pour quitter l'environnement virtuel ```deactivate```
 
 
 11) A quoi sert docker ?
