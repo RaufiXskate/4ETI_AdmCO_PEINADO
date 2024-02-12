@@ -93,7 +93,15 @@ L’une des pratiques clés du développement de logiciel moderne est d’isoler
 
 12) Comment utiliser docker ?
 
-https://datascientest.com/docker-guide-complet
-https://kinsta.com/fr/base-de-connaissances/qu-est-ce-que-docker/
-https://www.data-transitionnumerique.com/docker-tuto-complet/
+Comme dis précédemment docker est une plateforme permettant de faciliter les tests et le déploiement d'application :
 
+Il faut se créer un compte sur la plateforme docker.
+
+Les commandes principale pour utiliser docker sont les suivantes :
+```
+docker ps (permet de lister les conteneurs existants)
+docker run image (permet d'éxécuter une image)
+docker image ls (permet de lister les images existantes)
+docker stop conteneur (permet de stopper un conteneur)
+docker rm conteneur (permet de supprimmer un conteneur)
+```
