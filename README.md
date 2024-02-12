@@ -236,8 +236,23 @@ Exercice 12 : https://gitlab.com/administration-code-2024/exercice-12.git
 
 # Ressources
 
+Le sujet du TP1 : https://github.com/fabricejumel/SUJET_4ETI_AdmCO_20232024/?tab=readme-ov-file
+
 Plateforme de mise en ligne de package Python : https://test.pypi.org/
 
 Commandes gitlab : https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html
 
 Énoncé du sujet : https://github.com/fabricejumel/SUJET_4ETI_AdmCO_20232024/?tab=readme-ov-file
+
+Python path : https://bic-berkeley.github.io/psych-214-fall-2016/using_pythonpath.html
+
+La règle pep20 : https://realpython.com/zen-of-python/
+
+Documentation sur test.pypi : https://packaging.python.org/en/latest/guides/using-testpypi/
+et https://blog.kulakowski.fr/post/uploader-un-package-sur-pypi
+
+Librairie unittest : https://gayerie.dev/docs/python/python3/unittest.html
+
+Visualisation des branches git dans un terminal : https://stackoverflow.com/questions/1838873/visualizing-branch-topology-in-git
+
+Intégration continue de gitlab : https://galadrim.fr/blog/comment-utiliser-gitlab-ci-cd-pour-ameliorer-votre-flow-de-developpement
