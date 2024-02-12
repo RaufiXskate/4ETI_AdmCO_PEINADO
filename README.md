@@ -60,10 +60,10 @@ On doit ajouter le package calculator dans le Pythonpath pour ne pas avoir d'err
 Pour cela une méthode rapide (mais pas optimale) revient à ajouter le chemin de votre package dans directement dans le fichier python path (procédure pour linux): 
 
 Ouvrir le fichier ~/.bashrc et rajouter la ligne suivante :
-
 ```
 export PYTHONPATH=/chemin_du_package
 ```
+Sauvegarder le fichier.
 
 Voici un extrait de la classe MyTestCase : 
 
