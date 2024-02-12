@@ -108,7 +108,7 @@ Ce projet a été codé en respectant un maximum les règles de bonnes pratiques
 
 Ces règles et leurs utilisations dans le projet ont été détaillés ici : https://gitlab.com/administration-code-2024/exercice-3.git
 
-2) De plus dans l'optique d'améliorer la lisibilité du code, on utilise les programmes black et pylint : (voir installation de ces librairies dans la section "Librairie nécessaires").
+2) De plus dans l'optique d'améliorer la lisibilité du code, on utilise les programmes black et pylint : (voir installation de ces librairies dans la section "Librairies nécessaires").
 
 a) black : formate le code qu'on lui donne en argument
 
