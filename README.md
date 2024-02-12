@@ -192,6 +192,10 @@ Pour rendre accessible la partie fonctionnelle du projet (la classe qui réalise
 ```
 pip install -i https://test.pypi.org/simple/ calculator-complexe-cobra
 ```
+Ci-dessous on peut voir que le fichier a bien été mis en ligne sur le site :
+
+![preuve_mise_en_ligne](images/miseenligne.png)
+
 
 # Liens vers gitlab
 
