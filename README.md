@@ -4,11 +4,11 @@
 
 Le but de ce TP est de créer un calculateur pouvant réaliser les opérations simples (addition, soustraction, multiplication et division) sur 2 nombres complexes en utilisant la notion de classe et de package.
 Il a pour objectif de nous familiariser avec les commandes git et l'utilisation de site tel que https://gitlab.com/ et https://github.com/.
-Enfin, plus généralement, ce premier TP avait pour but de nous faire appréhender la gestion d'un projet (avec du code) ainsi que les bonnes pratiques à respecter.
+Enfin, plus généralement, ce premier TP avait pour but de nous faire appréhender la gestion d'un projet (avec du code) ainsi que les bonnes pratiques à respecter (plusieurs branches, lisibilité du code,...).
 
 # II. Organisation du projet
 
-Le projet ce présente que ceci :
+Le projet se présente comme ceci :
 
 ```.
 ├── calculator
@@ -50,16 +50,19 @@ On peut voir que le constructeur de la classe prend en paramètre 2 tuples qui c
 2) Le package test :
 
 Ce package nous permet de faire des tests de fonctionnalités sur notre classe SimpleComplexCalculator contenu dans le package calculator.
+
 Pour pouvoir faire des tests en appelant le package calculator, il faut l'importer dans le programme :
+
 ```import calculator ``` ou bien ```from calculator import methodes```
 
 On doit ajouter le package calculator dans le Pythonpath pour ne pas avoir d'erreur lors de l'importation dans un programme.
 
-Pour cela une méthode rapide revient à ajouter le chemin de votre package dans le fichier python path : 
+Pour cela une méthode rapide (mais pas optimale) revient à ajouter le chemin de votre package dans directement dans le fichier python path (procédure pour linux): 
+
+Ouvrir le fichier ~/.bashrc et rajouter la ligne suivante :
 
 ```
-import sys
-sys.path.insert(0, "/path/to/your/package_or_module")
+export PYTHONPATH=/chemin_du_package
 ```
 
 Voici un extrait de la classe MyTestCase : 
